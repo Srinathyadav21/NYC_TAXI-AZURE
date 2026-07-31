@@ -5,12 +5,20 @@
 			"referenceName": "nyc web",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"p_month": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://d37ci6vzurychx.cloudfront.net/"
+				"relativeUrl": {
+					"value": "trip-data/yellow_tripdata_2024-0@{dataset().p_month}.parquet",
+					"type": "Expression"
+				}
 			},
 			"compressionCodec": "snappy"
 		},
