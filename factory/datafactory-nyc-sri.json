@@ -1,0 +1,15 @@
+{
+	"name": "datafactory-nyc-sri",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "45bf6dd4-17cb-4aee-b53d-b5635fe8d455",
+		"tenantId": "f6689893-2aaa-4f97-87f8-128751a89ed8"
+	}
+}
