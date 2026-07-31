@@ -1,0 +1,19 @@
+{
+	"name": "less_than_nine",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "nyc web",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://d37ci6vzurychx.cloudfront.net/"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

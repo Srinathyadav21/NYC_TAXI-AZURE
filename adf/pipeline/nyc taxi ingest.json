@@ -70,14 +70,8 @@
 										},
 										"inputs": [
 											{
-												"referenceName": "nycurl",
-												"type": "DatasetReference",
-												"parameters": {
-													"p_month": {
-														"value": "@item()",
-														"type": "Expression"
-													}
-												}
+												"referenceName": "less_than_nine",
+												"type": "DatasetReference"
 											}
 										],
 										"outputs": [

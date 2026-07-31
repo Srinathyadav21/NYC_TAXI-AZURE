@@ -2,7 +2,7 @@
 	"name": "nycurl",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "nyc web",
+			"referenceName": "HttpServer1",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "trip-data/yellow_tripdata_2024-0@{dataset().p_month}.parquet",
+					"value": "trip-data/yellow_tripdata_2024-@{dataset().p_month}.parquet",
 					"type": "Expression"
 				}
 			},
