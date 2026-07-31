@@ -90,7 +90,7 @@
 								],
 								"ifTrueActivities": [
 									{
-										"name": "Copy data NYC",
+										"name": "Copy NYC-TAXI data",
 										"type": "Copy",
 										"dependsOn": [],
 										"policy": {
